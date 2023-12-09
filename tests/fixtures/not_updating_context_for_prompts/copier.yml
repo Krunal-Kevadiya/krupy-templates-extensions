@@ -1,0 +1,7 @@
+_jinja_extensions:
+- krupy_templates_extensions.TemplateExtensionLoader
+- extensions.py:ContextUpdater
+
+name:
+  type: str
+  default: "pawamoy"

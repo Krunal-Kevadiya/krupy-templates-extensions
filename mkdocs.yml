@@ -1,0 +1,82 @@
+site_name: "Krupy Templates Extensions"
+site_description: "Special Jinja2 extension for Krupy that allows to load extensions using file paths relative to the template root instead of Python dotted paths."
+site_url: "https://pawamoy.github.io/krupy-templates-extensions"
+repo_url: "https://github.com/pawamoy/krupy-templates-extensions"
+repo_name: "pawamoy/krupy-templates-extensions"
+site_dir: "site"
+watch: [README.md, CONTRIBUTING.md, CHANGELOG.md, src/krupy_templates_extensions]
+
+nav:
+- Home:
+  - Overview: index.md
+  - Changelog: changelog.md
+  - Credits: credits.md
+  - License: license.md
+# defer to gen-files + literate-nav
+- Code Reference: reference/
+- Development:
+  - Contributing: contributing.md
+  - Code of Conduct: code_of_conduct.md
+  - Coverage report: coverage.md
+- Author's website: https://pawamoy.github.io/
+
+theme:
+  name: material
+  icon:
+    logo: material/currency-sign
+  features:
+  - navigation.tabs
+  - navigation.tabs.sticky
+  - navigation.top
+  palette:
+  - media: "(prefers-color-scheme: light)"
+    scheme: default
+    primary: teal
+    accent: purple
+    toggle:
+      icon: material/weather-sunny
+      name: Switch to dark mode
+  - media: "(prefers-color-scheme: dark)"
+    scheme: slate
+    primary: black
+    accent: lime
+    toggle:
+      icon: material/weather-night
+      name: Switch to light mode
+
+extra_css:
+- css/material.css
+- css/mkdocstrings.css
+
+markdown_extensions:
+- admonition
+- callouts
+- pymdownx.emoji
+- pymdownx.magiclink
+- pymdownx.snippets:
+    check_paths: true
+- pymdownx.superfences
+- pymdownx.tabbed:
+    alternate_style: true
+- pymdownx.tasklist
+- toc:
+    permalink: "¤"
+
+plugins:
+- search
+- markdown-exec
+- gen-files:
+    scripts:
+    - docs/gen_ref_nav.py
+- literate-nav:
+    nav_file: SUMMARY.md
+- coverage
+- section-index
+- mkdocstrings
+
+extra:
+  social:
+  - icon: fontawesome/brands/github
+    link: https://github.com/pawamoy
+  - icon: fontawesome/brands/twitter
+    link: https://twitter.com/pawamoy
