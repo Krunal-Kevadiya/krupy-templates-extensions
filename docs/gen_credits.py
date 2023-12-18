@@ -38,7 +38,7 @@ def get_credits_data() -> dict:
         "project_name": project_name,
         "direct_dependencies": sorted(direct_dependencies),
         "indirect_dependencies": sorted(indirect_dependencies),
-        "more_credits": "http://pawamoy.github.io/credits/",
+        "more_credits": "https://krunal-kevadiya.github.io/credits/",
     }
 
 
@@ -51,7 +51,7 @@ def get_credits():
     """
     jinja_env = SandboxedEnvironment(undefined=StrictUndefined)
     commit = "c78c29caa345b6ace19494a98b1544253cbaf8c1"
-    template_url = f"https://raw.githubusercontent.com/pawamoy/jinja-templates/{commit}/credits.md"
+    template_url = f"https://raw.githubusercontent.com/Krunal-Kevadiya/jinja-templates/{commit}/credits.md"
     template_data = get_credits_data()
     template_text = urlopen(template_url).read().decode("utf8")  # noqa: S310
     return jinja_env.from_string(template_text).render(**template_data)

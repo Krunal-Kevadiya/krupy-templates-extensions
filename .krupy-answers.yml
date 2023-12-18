@@ -1,12 +1,12 @@
 # Changes here will be overwritten by Krupy
 _commit: 0.10.0
 _src_path: gh:pawamoy/krupy-pdm
-author_email: pawamoy@pm.me
+author_email: kevadiyakrunal22@gmail.com
 author_fullname: "Timoth\xE9e Mazzucotelli"
-author_username: pawamoy
+author_username: Krunal-Kevadiya
 copyright_date: '2021'
 copyright_holder: "Timoth\xE9e Mazzucotelli"
-copyright_holder_email: pawamoy@pm.me
+copyright_holder_email: kevadiyakrunal22@gmail.com
 copyright_license: ISC License
 project_description: Special Jinja2 extension for Krupy that allows to load extensions
   using file paths relative to the template root instead of Python dotted paths.
@@ -15,6 +15,6 @@ python_package_command_line_name: krupy-templates-extensions
 python_package_distribution_name: krupy-templates-extensions
 python_package_import_name: krupy_templates_extensions
 repository_name: krupy-templates-extensions
-repository_namespace: pawamoy
+repository_namespace: Krunal-Kevadiya
 repository_provider: github.com
 use_precommit: false

@@ -1,9 +1,8 @@
 # Krupy Templates Extensions
 
-[![ci](https://github.com/pawamoy/krupy-templates-extensions/workflows/ci/badge.svg)](https://github.com/pawamoy/krupy-templates-extensions/actions?query=workflow%3Aci)
-[![documentation](https://img.shields.io/badge/docs-mkdocs%20material-blue.svg?style=flat)](https://pawamoy.github.io/krupy-templates-extensions/)
+[![documentation](https://img.shields.io/badge/docs-mkdocs%20material-blue.svg?style=flat)](https://Krunal-Kevadiya.github.io/krupy-templates-extensions/)
 [![pypi version](https://img.shields.io/pypi/v/krupy-templates-extensions.svg)](https://pypi.org/project/krupy-templates-extensions/)
-[![gitpod](https://img.shields.io/badge/gitpod-workspace-blue.svg?style=flat)](https://gitpod.io/#https://github.com/pawamoy/krupy-templates-extensions)
+[![gitpod](https://img.shields.io/badge/gitpod-workspace-blue.svg?style=flat)](https://gitpod.io/#https://github.com/Krunal-Kevadiya/krupy-templates-extensions)
 [![gitter](https://badges.gitter.im/join%20chat.svg)](https://gitter.im/krupy-templates-extensions/community)
 
 Special Jinja2 extension for Krupy that allows to load extensions using file paths relative to the template root instead of Python dotted paths.

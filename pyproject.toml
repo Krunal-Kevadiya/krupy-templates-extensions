@@ -5,10 +5,10 @@ build-backend = "pdm.pep517.api"
 [project]
 name = "krupy-templates-extensions"
 description = "Special Jinja2 extension for Krupy that allows to load extensions using file paths relative to the template root instead of Python dotted paths."
-authors = [{name = "Timothée Mazzucotelli", email = "pawamoy@pm.me"}]
+authors = [{name = "Krunal Kevadiya", email = "kevadiyakrunal22@gmail.com"}]
 license-expression = "ISC"
 readme = "README.md"
-requires-python = ">=3.7"
+requires-python = ">=3.8"
 keywords = ["krupy", "templates", "extension"]
 dynamic = ["version"]
 classifiers = [
@@ -31,14 +31,14 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://pawamoy.github.io/krupy-templates-extensions"
-Documentation = "https://pawamoy.github.io/krupy-templates-extensions"
-Changelog = "https://pawamoy.github.io/krupy-templates-extensions/changelog"
-Repository = "https://github.com/pawamoy/krupy-templates-extensions"
-Issues = "https://github.com/pawamoy/krupy-templates-extensions/issues"
-Discussions = "https://github.com/pawamoy/krupy-templates-extensions/discussions"
+Homepage = "https://Krunal-Kevadiya.github.io/krupy-templates-extensions"
+Documentation = "https://Krunal-Kevadiya.github.io/krupy-templates-extensions"
+Changelog = "https://Krunal-Kevadiya.github.io/krupy-templates-extensions/changelog"
+Repository = "https://github.com/Krunal-Kevadiya/krupy-templates-extensions"
+Issues = "https://github.com/Krunal-Kevadiya/krupy-templates-extensions/issues"
+Discussions = "https://github.com/Krunal-Kevadiya/krupy-templates-extensions/discussions"
 Gitter = "https://gitter.im/krupy-templates-extensions/community"
-Funding = "https://github.com/sponsors/pawamoy"
+Funding = "https://github.com/sponsors/Krunal-Kevadiya"
 
 [tool.pdm]
 version = {source = "scm"}
@@ -71,7 +71,7 @@ maintain = [
 ]
 quality = [
     "darglint>=1.8",
-    "flake8<4",  # TODO: remove once importlib-metadata version conflict is resolved
+    "flake8>=5.0.0",  # TODO: remove once importlib-metadata version conflict is resolved
     "flake8-bandit>=2.1",
     "flake8-black>=0.2",
     "flake8-bugbear>=21.9",

@@ -36,7 +36,7 @@ def get_license(pkg_name):
                 license = value.rsplit("::", 1)[1].strip()
             elif header == "Author-email":
                 author = value
-    if license == "Other/Proprietary License" and "pawamoy" in author:
+    if license == "Other/Proprietary License" and "Krunal-Kevadiya" in author:
         license = "ISC"
     return license or "?"
 
@@ -73,7 +73,7 @@ template_data = {
     "project_name": project_name,
     "prod_dependencies": sorted(prod_dependencies.values(), key=lambda dep: dep["name"]),
     "dev_dependencies": sorted(dev_dependencies.values(), key=lambda dep: dep["name"]),
-    "more_credits": "http://pawamoy.github.io/credits/",
+    "more_credits": "http://Krunal-Kevadiya.github.io/credits/",
 }
 template_text = dedent(
     """
